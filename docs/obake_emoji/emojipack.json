@@ -1,25 +1,25 @@
 {
   "name": "obake_emoji",
-  "version": "1.0.0", // 絵文字パックのバージョン
+  "version": "1.0.0",
   "description": "自作おばけ絵文字パック", 
   "credit": "https://37i37gi.github.io", 
   "iconURL": "https://37i37gi.github.io/obake_emoji/obake.png", 
   "emojis": [
-    { // 1つ目の絵文字
-      "shortcode": "hoge", // 絵文字のショートコード(`:`を除いた部分)
-      "imageURL": "https://example.com/files/hoge.gif", // 絵文字の実体となる画像ファイル
-      "aliases": ["ほげ", "ホゲ"] // 絵文字のエイリアス(別名: 絵文字を検索する際のキーワード)
+    { 
+      "shortcode": "obake", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake.png", 
+      "aliases": ["おばけ","obake" ] 
     },
-    { // 2つ目の絵文字
-      "shortcode": "huga", // 絵文字のショートコード(`:`を除いた部分)
+    { 
+      "shortcode": "", 
       "imageURL": "https://example.com/files/huga.png", // 絵文字の実体となる画像ファイル
       "aliases": ["ふが", "フガ"] // 絵文字のエイリアス(別名: 絵文字を検索する際のキーワード)
     },
-    { // 3つ目の絵文字
+    { 
       "shortcode": "piyo", // 絵文字のショートコード(`:`を除いた部分)
       "imageURL": "https://example.com/files/piyo.jpg", // 絵文字の実体となる画像ファイル
       "aliases": ["ぴよ", "ピヨ", "ひよこ"] // 絵文字のエイリアス(別名: 絵文字を検索する際のキーワード)
     }
-    ...省略...
+  
   ]
 }
