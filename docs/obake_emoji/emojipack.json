@@ -8,18 +8,22 @@
     { 
       "shortcode": "obake", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake.png", 
-      "aliases": ["おばけ","obake" ] 
+      "aliases": ["おばけ"] 
     },
     { 
-      "shortcode": "", 
-      "imageURL": "https://example.com/files/huga.png", // 絵文字の実体となる画像ファイル
-      "aliases": ["ふが", "フガ"] // 絵文字のエイリアス(別名: 絵文字を検索する際のキーワード)
+      "shortcode": "obakeyura.gif", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obakeyura.gif", 
+      "aliases": ["おばけ", "obake","ゆらゆら"] 
     },
     { 
-      "shortcode": "piyo", // 絵文字のショートコード(`:`を除いた部分)
-      "imageURL": "https://example.com/files/piyo.jpg", // 絵文字の実体となる画像ファイル
-      "aliases": ["ぴよ", "ピヨ", "ひよこ"] // 絵文字のエイリアス(別名: 絵文字を検索する際のキーワード)
-    }
-  
+      "shortcode": "obakesuya.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obakesuya.png", 
+      "aliases": ["おばけ", "すやすや", "寝る"] 
+    },
+  { 
+      "shortcode": "obakesuya.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obakesuya.png", 
+      "aliases": ["",] 
+    },
   ]
 }
