@@ -21,9 +21,20 @@
       "aliases": ["おばけ", "すやすや", "寝る"] 
     },
   { 
-      "shortcode": "obakesuya.png", 
-      "imageURL": "https://37i37gi.github.io/obake_emoji/obakesuya.png", 
-      "aliases": ["",] 
+      "shortcode": "obakenaki.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obakenaki.png", 
+      "aliases": ["おばけ","泣く"] 
     },
+  { 
+      "shortcode": "obake_thankyou_heart.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_thankyou_heart.png", 
+      "aliases": ["おばけ","ありがとう","サンキュー"] 
+    },
+    { 
+      "shortcode": "obake_yes.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_yes.png", 
+      "aliases": ["おばけ","はい","yes"] 
+    },
+  
   ]
 }
