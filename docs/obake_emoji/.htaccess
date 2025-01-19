@@ -1,3 +1,5 @@
-<FilesMatch "\.(png|gif|json)$">
-    Header set Access-Control-Allow-Origin "*"
-</FilesMatch>
+<IfModule mod_headers.c>
+    <FilesMatch "\.(png|gif|json)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
