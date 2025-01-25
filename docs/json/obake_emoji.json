@@ -1,5 +1,5 @@
 {
-  "name": "obake_emojis",
+  "name": "obake_emoji",
   "version": "1.3.5",
   "description": "自作おばけ絵文字パック", 
   "credit": "https://github.com/37i37gi", 
@@ -44,6 +44,11 @@
       "shortcode": "obakesuya", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obakesuya.png", 
       "aliases": ["おばけ", "すやすや", "寝る"] 
+    },
+    { 
+      "shortcode": "obakekyomu", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obakekyomu.png", 
+      "aliases": ["おばけ","きょむ"] 
     },
   { 
       "shortcode": "obakenaki", 
