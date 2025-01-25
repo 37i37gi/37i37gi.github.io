@@ -7,32 +7,32 @@
   "emojis": [
     { 
       "shortcode": "muscle_obake", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/muscle_obake.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/muscle_obake.png", 
       "aliases": ["マッスルおばけ"] 
     },
     { 
       "shortcode": "muscle_obake_dancing", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/muscle_obake_dancing.gif", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/muscle_obake_dancing.gif", 
       "aliases": ["マッスルおばけ","おどる","ダンス","ダンシング"] 
     },
     { 
       "shortcode": "muscle_obake_cakes", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/muscle_obake_cakes.gif", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/muscle_obake_cakes.gif", 
       "aliases": ["マッスルおばけ","ケーキ"] 
     },
     { 
       "shortcode": "muscle_obake_igyo2", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/muscle_obake_igyo2.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/muscle_obake_igyo2.png", 
       "aliases": ["マッスルおばけ","いぎょう"] 
     },
     { 
       "shortcode": "muscle_obake_igyo_kira", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/muscle_obake_igyo_kira.gif", 
+      "imageURL": "obake_emoji/muscle_obake_igyo_kira.gif", 
       "aliases": ["マッスルおばけ","いぎょう"] 
     },
     { 
       "shortcode": "obake", 
-      "imageURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/obake.png", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake.png", 
       "aliases": ["おばけ"] 
     },
     { 
