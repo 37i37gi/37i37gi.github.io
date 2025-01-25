@@ -1,9 +1,9 @@
 {
-  "name": "37i37gi_obake_emoji",
+  "name": "obake_emoji",
   "version": "1.3.5",
   "description": "自作おばけ絵文字パック", 
   "credit": "https://github.com/37i37gi", 
-  "iconURL": "https://raw.githubusercontent.com/37i37gi/emojipack/refs/heads/main/obake_emoji/obake.png", 
+  "iconURL": "https://37i37gi.github.io/obake_emoji/obake.png", 
   "emojis": [
     { 
       "shortcode": "muscle_obake", 
