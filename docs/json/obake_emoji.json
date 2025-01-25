@@ -335,6 +335,11 @@
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_otsukaresamadesu.png", 
       "aliases": ["おばけ","おつかれさまです"] 
     },
+  { 
+      "shortcode": "obake_otukaresamadesu_nade", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_otukaresamadesu_nade.gif", 
+      "aliases": ["おばけ","おつかれさまです","なで"] 
+  },
     { 
       "shortcode": "obake_oteage", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_oteage.png", 
