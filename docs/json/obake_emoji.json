@@ -110,10 +110,15 @@
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_hungry_yo.gif", 
       "aliases": ["おばけ","おなかすいた"] 
     },
+     { 
+      "shortcode": "obake_harapeko", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_harapeko.png", 
+      "aliases": ["おばけ","はらぺこ"] 
+    },
     { 
       "shortcode": "obake_majiharapeko", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_majiharapeko.gif", 
-      "aliases": ["おばけ","はらぺこ"] 
+      "aliases": ["おばけ","はらぺこ","飯テロ"] 
     },
     { 
       "shortcode": "obake_pudding", 
@@ -230,6 +235,11 @@
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_hai.gif", 
       "aliases": ["おばけ","サイリウム","ペンライト"] 
     },
+     { 
+      "shortcode": "obake_6sticks_veryhappy", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_veryhappy.gif", 
+      "aliases": ["おばけ","サイリウム","ペンライト"] 
+    },
     { 
       "shortcode": "obake_6sticks_call", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_call.gif", 
@@ -238,6 +248,11 @@
     { 
       "shortcode": "obake_6sticks_red_hai", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_red_hai.gif", 
+      "aliases": ["おばけ","サイリウム","ペンライト"] 
+    },
+     { 
+      "shortcode": "obake_6sticks_red_veryhappy", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_red_veryhappy.gif", 
       "aliases": ["おばけ","サイリウム","ペンライト"] 
     },
     { 
@@ -424,6 +439,11 @@
       "shortcode": "obake_gatagata_resonance", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_gatagata_resonance_.gif", 
       "aliases": ["おばけ","こわい","がたがた","きょうふ"] 
+    },
+     { 
+      "shortcode": "obake_beroberobaa", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_beroberobaa.gif", 
+      "aliases": ["おばけ","べろべろばー"] 
     },
     { 
       "shortcode": "obake_scroll", 
