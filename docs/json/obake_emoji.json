@@ -251,6 +251,11 @@
       "aliases": ["おばけ","サイリウム","ペンライト"]
     },
     { 
+      "shortcode": "obake_6sticks_purple_veryhappy", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_veryhappy.gif", 
+      "aliases": ["おばけ","サイリウム","ペンライト"] 
+    },
+    { 
       "shortcode": "obake_6sticks_purple_call", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_call.gif", 
       "aliases": ["おばけ","サイリウム","ペンライト"]
@@ -258,6 +263,11 @@
     { 
       "shortcode": "obake_6sticks_green_hai", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_green_hai.gif", 
+      "aliases": ["おばけ","サイリウム","ペンライト"] 
+    },
+     { 
+      "shortcode": "obake_6sticks_green_veryhappy", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_green_veryhappy.gif", 
       "aliases": ["おばけ","サイリウム","ペンライト"] 
     },
     { 
@@ -268,6 +278,11 @@
     { 
       "shortcode": "obake_6sticks_blue_hai", 
       "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_hai.gif", 
+      "aliases": ["おばけ","サイリウム","ペンライト"] 
+    },
+     { 
+      "shortcode": "obake_6sticks_blue_veryhappy", 
+      "imageURL": "https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_veryhappy.gif", 
       "aliases": ["おばけ","サイリウム","ペンライト"] 
     },
     { 
