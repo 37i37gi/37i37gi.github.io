@@ -5,6 +5,11 @@
   "credit": "https://37i37gi.github.io", 
   "iconURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo.gif",
   "emojis": [
+   { 
+      "shortcode": "MEGAMOJI_igyo2", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo2.png", 
+      "aliases": ["いぎょう"] 
+    },
     { 
       "shortcode": "MEGAMOJI_igyo", 
       "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo.gif", 
