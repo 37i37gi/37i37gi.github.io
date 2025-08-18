@@ -1,1 +1,0 @@
-{ "name": "Link Portal", "icons": [ { "src": "/LinkPortal192.png", "sizes": "192×192", "type": "image/png" }, { "src": "/LinkPortal512.png", "sizes": "512x512", "type": "image/png" } ], "start_url": "https://37i37gi.github.io", "display": "standalone", "background_color": "#333333", "theme_color": "#333333" }
