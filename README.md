@@ -25,4 +25,6 @@
 当方が配布している絵文字をご利用の際は、あなたのサイトやプロフィール、サーバーの規約ページなどに、クレジットとして下記URLのいずれかを記載してください。ご協力をお願いします。
 
 * 絵文字配布置き場とリンク集(推奨)`https://37i37gi-site.pages.dev/`
+* GitHubのリポジトリ(推奨)
+`https://github.com/37i37gi/37i37gi.github.io`
 * まにほむのノート`https://maniakey.homes/@sanagi/pages/1709985753046`
