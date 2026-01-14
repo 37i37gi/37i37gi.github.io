@@ -28,4 +28,5 @@
 * 絵文字配布置き場とリンク集(推奨)`https://37i37gi-site.pages.dev/`
 * GitHubのリポジトリ(推奨)
 `https://github.com/37i37gi/37i37gi.github.io`
+* lit.link`https://lit.link/37i37gi`
 * まにほむのノート`https://maniakey.homes/@sanagi/pages/1709985753046`
