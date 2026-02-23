@@ -2,8 +2,6 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-	<meta http-equiv="refresh" content="1; url=https://37i37gi-site.pages.dev">
-	<!--rel="me"認証-->
 	<link rel="me" href="https://mi.mashiro.site/@37i37gi">
 	<link rel="me" href="https://misskey.yukineko.me/@37i37gi">
 	<link rel="me" href="https://misskey.flowers/@37i37gi">
@@ -11,561 +9,698 @@
 	<link rel="me" href="https://misskey.io/@37i37gi">
 	<link rel="me" href="https://maniakey.com/@37i37gi">
 	<link rel="me" href="https://maniakey.com/@YuruSanyagi">
+	
 
-	<!--rel="me"認証ここまで-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="robots" content="noindex,noarchive,nofollow,noimageindex,noimageai,noai,nosnippet" />
-
- <meta name="bingbot" content="noarchive">
-
-<meta name="msnbot" content="noarchive">
-
-<link rel="manifest" href="manifest.js">
-
-<meta name="hatena" content="nodiff" />
-
- <meta name= "pinterest" content= "nopin" description= "ピン保存禁止" />
-
- <link rel="icon" href="/favicon.ico" id="favicon">
-
-<link rel="apple-touch-icon" sizes="180x180" href="/img/180.png">
-
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <title>(旧)絵文字配布置き場とリンク集</title>
+  <meta name="bingbot" content="noarchive">
+  <meta name="msnbot" content="noarchive">
+  <link rel="manifest" href="manifest.json">
+  <meta name="hatena" content="nodiff" />
+  <meta name= "pinterest" content= "nopin" description= "ピン保存禁止" />
+  <link rel="icon" href="/favicon.ico" id="favicon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/obake180.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>絵文字配布置き場</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <style>
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
- </style>
-	<style>
-	  html, body {
-  height: auto;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch; /* iOS対策 */
-	  }
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap');
+
     :root {
-      --bg-color: #f5f5f5;
-      --text-color: #333;
-      --card-bg: #fff;
-      --link-color: #007acc;
+      --bg-color: #f0f2f5;
+      --text-color: #1c1e21;
+      --card-bg: #ffffff;
+      --accent-color: #007acc;
+      --border-color: #ddd;
+      --shadow-color: rgba(0, 0, 0, 0.08);
     }
 
     body.dark {
-      --bg-color: #1a1a1a;
-      --text-color: #eee;
-      --card-bg: #2a2a2a;
-      --link-color: #66ccff;
+      --bg-color: rgb(20, 22, 32);
+      --text-color: #E0E0E0;
+      --card-bg: rgb(31, 34, 46);
+      --accent-color: rgb(130, 224, 170);
+      --border-color: rgba(255, 255, 255, 0.1);
+      --shadow-color: rgba(0, 0, 0, 0.2);
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
-      font-family: "M PLUS Rounded 1c", sans-serif;
+      font-family: 'Zen Kaku Gothic New', "M PLUS Rounded 1c", sans-serif;
       background: var(--bg-color);
       color: var(--text-color);
-	font-weight: 400;
-  font-style: normal;
+      font-weight: 400;
       margin: 0;
-      padding: 1rem;
-      transition: background 0.3s, color 0.3s;
+      padding: 2rem 1rem;
+      transition: background 0.3s ease, color 0.3s ease;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
     .container {
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto;
       background: var(--card-bg);
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 20px var(--shadow-color);
+      border: 1px solid var(--border-color);
     }
 
     header {
       text-align: center;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    header p {
+    h1, h2, h3 {
       color: var(--text-color);
+      font-weight: 700;
+    }
+    
+    h2 {
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+      margin-top: 2.5rem;
     }
 
-    .theme-toggle {
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-
-    .theme-toggle button {
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
+    hr {
       border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      background: var(--link-color);
-      color: #fff;
+      border-top: 1px solid var(--border-color);
+      margin: 2rem 0;
     }
 
-    .accordion {
-      border-top: 1px solid #ccc;
-      margin-top: 1rem;
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      position: relative; /* アニメーションの基準点 */
+      padding-bottom: 4px; /* 下線とのスペース */
+      transition: color 0.2s ease;
     }
-
-    .accordion button {
+    
+    /* 下線アニメーション */
+    a::after {
+      content: '';
+      position: absolute;
       width: 100%;
-      padding: 1rem;
-      background: none;
-      border: none;
-      text-align: left;
-      font-size: 1rem;
-      font-weight: bold;
+      height: 2px;
+      background: var(--accent-color);
+      bottom: 0;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease-out;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+    
+    a:hover::after {
+       transform: scaleX(1);
+    }
+
+    details {
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      margin-top: 1rem;
+      transition: background-color 0.2s ease;
+    }
+
+    details:hover {
+      background-color: rgba(0,0,0,0.02);
+    }
+    
+    body.dark details:hover {
+        background-color: rgba(255,255,255,0.03);
+    }
+
+    summary {
+      padding: 1rem 1.5rem;
+      font-weight: 700;
       cursor: pointer;
+      list-style: none;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      color: var(--text-color);
+      justify-content: space-between;
     }
-
-    .accordion-content {
+    
+    summary::-webkit-details-marker {
       display: none;
-      padding: 0 1rem 1rem 1rem;
-      color: var(--text-color);
     }
 
-    .accordion button.active + .accordion-content {
-      display: block;
+    summary::after {
+      content: '+';
+      font-size: 1.5rem;
+      color: var(--accent-color);
+      transition: transform 0.3s ease;
     }
 
-    .links {
-      margin-top: 2rem;
+    details[open] > summary::after {
+      transform: rotate(45deg);
+    }
+    
+    details > section {
+      padding: 0 1.5rem 1.5rem 1.5rem;
     }
 
     .links ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
 
-    .links li {
+    .links li, .links box {
       display: flex;
       align-items: center;
       background: var(--bg-color);
       margin-bottom: 1rem;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
-      transition: background 0.2s;
+      padding: 1rem 1.25rem;
+      border-radius: 10px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid var(--border-color);
     }
 
     .links li:hover {
-      background: var(--card-bg);
+      transform: translateY(-2px);
+      box-shadow: 0 2px 8px var(--shadow-color);
     }
-
-    .links i {
-      margin-right: 0.75rem;
-      color: var(--link-color);
-      min-width: 20px;
+    
+    .links i, .link-icon {
+      margin-right: 1rem;
+      color: var(--accent-color);
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      flex-shrink: 0;
       text-align: center;
     }
-	   .link-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 0.75rem;
-  object-fit: contain;
-  flex-shrink: 0;
-	   }
-
+    
     .links a {
-      text-decoration: none;
-      color: var(--link-color);
-      font-weight: bold;
-      flex-grow: 1;
+  font-weight: 700;
+  flex-grow: 1;
+  word-break: break-all; /* ← これを追加 */
+}
+
+    .emoji-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
     }
-	  
-	   .links box {
-      display: flex;
+
+    .emoji-grid img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px;
+      background-color: var(--card-bg);
+      box-shadow: 0 2px 4px var(--shadow-color);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .emoji-grid img:hover {
+      transform: scale(1.15);
+      box-shadow: 0 4px 12px var(--shadow-color);
+    }
+
+    .emoji-note {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--text-color);
+      opacity: 0.8;
+      text-align: center;
+    }
+    
+    .zip-download {
+      display: inline-flex;
       align-items: center;
-      background: var(--bg-color);
-      margin-bottom: 1rem;
-      padding: 0.75rem 1rem;
+      gap: 0.75em;
+      padding: 0.8em 1.5em;
+      background-color: var(--accent-color);
+      color: #fff;
       border-radius: 8px;
-      transition: background 0.2s;
+      text-decoration: none;
+      font-weight: 700;
+      box-shadow: 0 3px 6px var(--shadow-color);
+      transition: opacity 0.2s ease, transform 0.2s ease;
     }
 
+    .zip-download:hover {
+color: var(--text-color);
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+    
+    body.dark .zip-download {
+        color: rgb(20, 22, 32);
+    }
 
+    .zip-download i {
+      font-size: 1em;
+    }
 
-   
+    .fixed-buttons {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      z-index: 1000;
+    }
 
-    .freespace {
-      margin-top: 2rem;
-      padding: 1rem;
-      background: var(--bg-color);
-      border-radius: 8px;
+    .fixed-buttons button {
+      width: 48px;
+      height: 48px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 4px 12px var(--shadow-color);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+    }
+
+    .fixed-buttons button:hover {
+      transform: translateY(-3px);
+      background: var(--accent-color);
+      color: #fff;
+      border-color: var(--accent-color);
+    }
+    
+    body.dark .fixed-buttons button:hover {
+        color: rgb(20, 22, 32);
+    }
+    
+    iframe {
+        border-radius: 12px;
+        border: 1px solid var(--border-color) !important;
     }
 
     @media (max-width: 600px) {
-      .container {
-        padding: 1rem;
+      body {
+        padding: 1rem 0.5rem;
       }
-
+      .container {
+        padding: 1.5rem;
+      }
       header h1 {
         font-size: 1.5rem;
       }
     }
 
-	  .fixed-buttons {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  z-index: 9999;
-	  }
-
-
-	/* ダークモード以外（ライトモード）のアイコンの色を黒に */
-body:not(.dark) .fixed-buttons button i {
-  color: #000; /* ライトモード時のアイコン色を黒に */
+.box1 {
+	display: block;
+	border: 1.5px solid var(--border-color);
+	border-radius: 0.3rem;
+	padding: 1.3rem;
+	margin: 1rem auto 1.5rem;
+	line-height: 1.65;
 }
 
-.fixed-buttons button {
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: 12px;
-  font-size: 1rem;
-  cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  opacity: 0.8;
-  transition: all 0.3s ease;
+ul,ol {
+	margin: 0.5rem 0 1rem;
+	padding-left: 1.5rem;
 }
 
-.fixed-buttons button:hover {
-  transform: translateY(-2px);
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.25);
+
+/* --- 更新履歴ボックス --- */
+.update-box {
+  background-color: var(--memo-iro); /* 背景色をサイトの背景と合わせる */
+  border: 1.5px solid var(--usu-iro);   /* 枠線の色 */
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.1rem;
+  max-height: 250px; /* ★ボックスの最大の高さをここで決める */
+  overflow-y: auto;  /* ★内容が高さ以上になったら、縦スクロールバーを出す */
+  line-height: 1.8;
 }
 
-/* ダークモード時のアイコン色を白に */
-body.dark .fixed-buttons button i {
-  color: #fff; /* ダークモード時のアイコン色を白に */
+.update-box ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
 }
 
-body.dark .fixed-buttons button {
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
 
-	  .emoji-section {
-  margin-top: 2rem;
-}
 
-.emoji-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 初期はスマホ向けに5個 */
-  gap: 12px;
-  justify-items: center;
-  margin-top: 1rem;
-}
-
-@media (min-width: 768px) {
-  .emoji-grid {
-    grid-template-columns: repeat(10, 1fr); /* 画面幅が768px以上で10個並ぶ */
-  }
-}
-
-.emoji-grid img {
-  width: 24px;
-  height: 24px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.emoji-grid img:hover {
-  transform: scale(1.2);
-}
-
-body.dark .emoji-grid img {
-  border-color: #555;
-  background-color: #2a2a2a;
-}
-
-.emoji-note {
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  color: var(--text-color);
-  text-align: center;
-}
-.zip-download {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5em;
-  padding: 0.6em 1em;
-  background-color: var(--link-color);
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
+.update-box .date {
   font-weight: bold;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: var(--koi-iro);
+  margin-right: 0.8em; /* 日付と本文の間のスペース */
+  display: block; /* 日付をブロック要素にして改行させる場合 */
 }
 
-.zip-download:hover {
-  transform: translateY(-2px);
-  background-color: #005f99;
+/* もし日付を改行させたくないなら、上の display: block; を消して下のコメントを外す */
+/*
+.update-box .date {
+  display: inline-block;
+}
+*/
+/* --- 更新履歴のカテゴリタグ --- */
+
+/* liのルールを一つにまとめる & 左に余白を追加 */
+.update-box li {
+  position: relative;
+  padding-right: 6em; /* 右側のタグ用スペース */
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1.2px dotted var(--usu-mozi-iro);
+  padding-left: 1.5rem; /* ★ここで日付やテキストのための左余白を作る */
 }
 
-.zip-download i {
-  font-size: 1em;
-  color: #fff;
+/* 最後の項目だけ、下の区切り線を消す（これは前からあるやつ） */
+.update-box li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
-body.dark .zip-download {
-  background-color: var(--link-color);
-  color: #fff;
+
+/* カテゴリタグの共通スタイル */
+.category-tag {
+  position: absolute;
+  top: 0.5rem; /* 上からの位置 */
+  right: 0.5rem;  /* 右からの位置 */
+  font-size: 0.75rem;
+  padding: 0.2em 0.7em;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  color: var(--siro-mozi2); /* タグの文字色 */
+  line-height: 1.5;
 }
 
-body.dark .zip-download i {
-  color: #fff;
+/* カテゴリごとの色設定 */
+.cat-info {
+  background-color: var(--link-iro); /* 「お知らせ」用の背景色 */
 }
-	  
+
+.cat-tweet {
+  background-color: var(--koi-iro); /* 「呟き」用の背景色 */
+}
+
+/* --- iframeのスタイル --- */
+.memo-frame {
+  width: 100%;
+  height: 250px; /* ★iframeの高さ。好きな高さに調整して */
+  border: none;  /* 余計な枠線を消す */
+}
+
+/* --- 更新履歴ボックス（Flexbox化） --- */
+.update-box ul {
+  display: flex;         /* 並び順を操作するためにFlexboxを有効化 */
+  flex-direction: column;  /* アイテムを縦に並べる */
+}
+/* --- 固定表示のスタイル（修正版） --- */
+.pinned {
+  order: -1;
+  position: relative; /* 線の位置を決めるための基準にする */
+  /* ↓少しだけ背景色を変えるのは、そのままでもいい */
+  background-color: rgba(176, 196, 222, 0.1);
+}
+
+/* 左の線を疑似要素（::before）で作って配置する */
+.pinned::before {
+  content: '';
+  position: absolute;
+  left: -0.1rem; /* ★.update-boxのpadding-leftと同じ値にすること */
+  top: 0;
+  bottom: 0;
+  width: 3px;    /* 線の太さ */
+  background-color: var(--koi-iro); /* 線の色 */
+}
+
+/* --- ピンアイコンのスタイル --- */
+
+/* アイコンがある場合、それを余白分だけ左に戻す */
+.pinned-icon {
+  font-size: 1rem;
+  vertical-align: middle;
+  color: var(--koi-iro);
+  margin-right: 0.4em;
+  margin-left: -1.5rem; /* ★上のpadding-leftと同じ数値（マイナスを付けて） */
+}
+
+
   </style>
 </head>
-<body>
-
+<body class="dark">
+<noscript>
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: white; color: #333; z-index: 99999; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; box-sizing: border-box; font-family: sans-serif;">
+        <h1 style="font-size: 24px; margin-bottom: 15px;">JavaScriptを有効にしてください</h1>
+        <p style="font-size: 16px; line-height: 1.6;">このウェブサイトを正常に表示し、すべての機能を利用するためには、お使いのブラウザでJavaScriptを有効にする必要があります。</p>
+        <p style="font-size: 14px; margin-top: 20px; color: #777;">お手数ですが、設定をご確認の上、再度アクセスしてください。</p>
+    </div>
+</noscript>
   <div class="container">
     <header>
-      
+      <h1>37i37gi.github.io</h1>
     </header>
 
-    <!-- <div class="theme-toggle">
-      <button onclick="toggleTheme()">ライト / ダーク切替</button>
-    </div>-->
-     <h1>ATTENTION</h1>
-	  数秒後に<a href="https://37i37gi-site.pages.dev/" target="_blank" rel="noreferrer noopener">絵文字配布置き場とリンク集</a>に飛びます。
-   
+
+	
 	  
-	  
-	  
-	  
-	  
+<div class="box1">
+
+
+<ul>	<li>名前：沙凪</li>
+	<li>URL:https://37i37gi.github.io</li>
+<li>連絡先:<a href="https://forms.gle/nhxhC5CJsHmWxMXL7">Googleフォーム</a>
+	/<a href="https://wavebox.me/wave/2hevaw2nkilczomm/">Wavebox</a></li>
+</ul>
+<section class="links">
+      <ul>
+        <li><i class="fa-solid fa-house-user"></i><a href="https://sananone.net" target="_blank" rel="noreferrer noopener">個人サイト</a></li>
+      <li><i class="fa-solid fa-house-user"></i><a href="https://lit.link/37i37gi" target="_blank" rel="noreferrer noopener">lit.link</a></li>
+	  </ul>
+</section>						
+</div><!--box1ここまで-->
+	
 	  <h2>絵文字配布場</h2>
-	  <section class="freespace">
+	  <section>
       <details>
-   <summary>クリックして表示<img src="obake_emoji/obake.png"class="link-icon"alt="おばけ絵文字"></summary>
-	<section class="emoji-section">
-  <div class="emoji-grid">
-    <img src="obake_emoji/obake.png" alt="obake.png">
-    <img src="https://37i37gi.github.io/obake_emoji/obakeshock.png" alt="obakeshock.png">
-    <img src="https://37i37gi.github.io/obake_emoji/obakekyomu.png" alt="obakekyomu.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obakenaki.png" alt="obakenaki.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_nakinade.gif" alt="obake_nakinade.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obakebaa.gif" alt="obakebaa.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obakesuya.png" alt="obakesuya.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_heart.png" alt="obake_heart.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_love.png" alt="obake_love.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_hungry.png" alt="obake_hungry.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_hungry_yo.gif" alt="obake_hungry_yo.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_harapeko.png" alt="obake_harapeko.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_majiharapeko.gif" alt="obake_majiharapeko.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_cake.png" alt="obake_cake.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_cakes.gif" alt="obake_cakes.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_pudding.png" alt="obake_pudding.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obakeyura.gif" alt="obakeyura.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_partypopper.png" alt="obake_partypopper.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_partypopper2.png" alt="obake_partypopper2.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_igyo_kira.gif" alt="obake_igyo_kira.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_igyo2.png" alt="obake_igyo2.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_saikou_kirayura.gif" alt="obake_saikou_kirayura.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_kansha.gif" alt="obake_kansha.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_iineiine3.gif" alt="obake_iineiine3.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_dancing.gif" alt="obake_dancing.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_song.gif" alt="obake_song.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_hai.gif" alt="obake_sticks_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_call.gif" alt="obake_sticks_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_happy.gif" alt="obake_sticks_happy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_hai.gif" alt="obake_sticks_red_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_call.gif" alt="obake_sticks_red_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_happy.gif" alt="obake_sticks_red_happy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_hai.gif" alt="obake_stick_blue_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_call.gif" alt="obake_sticks_blue_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_happy.gif" alt="obake_sticks_blue_happy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_hai.gif" alt="obake_sticks_green_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_call.gif" alt="obake_sticks_green_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_happy.gif" alt="obake_sticks_green_happy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_hai.gif" alt="obake_sticks_purple_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_call.gif" alt="obake_sticks_purple_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_happy.gif" alt="obake_sticks_purple_happy.gif">
-	  
-	   <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_hai.gif" alt="obake_6sticks_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_call.gif" alt="obake_6sticks_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_veryhappy.gif" alt="obake_6sticks_veryhappy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_hai.gif" alt="obake_6sticks_red_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_call.gif" alt="obake_6sticks_red_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_veryhappy.gif" alt="obake_6sticks_red_veryhappy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_hai.gif" alt="obake_6stick_blue_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_call.gif" alt="obake_6sticks_blue_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_veryhappy.gif" alt="obake_6sticks_blue_veryhappy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_hai.gif" alt="obake_6sticks_green_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_call.gif" alt="obake_6sticks_green_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_veryhappy.gif" alt="obake_6sticks_green_veryhappy.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_hai.gif" alt="obake_6sticks_purple_hai.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_call.gif" alt="obake_6sticks_purple_call.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_veryhappy.gif" alt="obake_6sticks_purple_veryhappy.gif">
-	  
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_kusa.png" alt="obake_kusa.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_kusaw.png" alt="obake_kusaw.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_surprised.png" alt="obake_surprised.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_bath.png" alt="obake_bath.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_hokaimayo.gif" alt="obake_hokaimayo.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_ohayooo.gif" alt="obake_ohayooo.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_oyasuminasai.png" alt="obake_oyasuminasai.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_beroberobaa.gif" alt="obake_beroberobaa.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_ok.png" alt="obake_ok.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_yes.png" alt="obake_yes.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_no.png" alt="obake_no.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_oteage.png" alt="obake_oteage.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_angry_oko.gif" alt="obake_angry_oko.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_gatagata_resonance_.gif" alt="obake_gatagata_resonance_.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_oyoo.png" alt="obake_oyoo.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_frustration.png" alt="obake_frustration.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_frustration_nade.gif" alt="obake_frustration_nade.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_kaiten_.gif" alt="obake_kaiten_.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_daikaiten_.gif" alt="obake_daikaiten_.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_scroll.gif" alt="obake_scroll.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_naruhodo_2.png" alt="obake_naruhodo_2.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_tiken_orange.png" alt="obake_tiken_orange.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_usa.png" alt="obake_usa.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_nazo.png" alt="obake_nazo.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_thinkhappy.png" alt="obake_thinkhappy.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_admire.png" alt="obake_admire.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_maa.png" alt="obake_maa.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_araa.png" alt="obake_araa.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_thankyou_heart.png" alt="obake_thankyou_heart.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_teretirami.png" alt="obake_teretirami.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_teretere.png" alt="obake_teretere.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_tere.png" alt="obake_tere.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_nagekiss_chu.gif" alt="obake_nagekiss_chu.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_okaeri.png" alt="obake_okaeri.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_okaerinasai.png" alt="obake_okaerinasai.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_ittekimasu.gif" alt="obake_ittekimasu.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_itteraa.png" alt="obake_itteraa.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_kitakusita.gif" alt="obake_kitakusita.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_taikin_kira.gif" alt="obake_taikin_kira.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_tadaima.gif" alt="obake_tadaima.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_otsukaresamadesu.png" alt="obake_otsukaresamadesu.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_otukaresamadesu_nade.gif" alt="obake_otukaresamadesu_nade.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_santa_present.png" alt="obake_santa_present.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_santa.gif" alt="obake_sticks_santa.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/obake_jackolantern.png" alt="obake_jackolantern.png">
-<img src="https://37i37gi.github.io/obake_emoji/space_obake.png" alt="space_obake.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/space_obake_kai.png" alt="space_obake_kai.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/space_obake_confusion.png" alt="space_obake_confusion.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/muscle_obake.png" alt="muscle_obake.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_cakes.gif" alt="muscle_obake_cakes.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_dancing.gif" alt="muscle_obake_dancing.gif">
-	  <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_igyo2.png" alt="muscle_obake_igyo2.png">
-	  <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_igyo_kira.gif" alt="muscle_obake_igyo_kira.gif">
-    <!-- 必要なだけ追加OK -->
-  </div></section>
-  <p class="emoji-note">保存してご自由にどうぞ。自作発言・商用利用・(Fediverseへの輸入除く)再配布は禁止です。</p>
-<p>
-  <a href="https://37i37gi.github.io/obake_emoji/obake_emoji.zip" download target="_blank" rel="noreferrer noopener" class="zip-download">
-    <i class="fas fa-file-archive"></i> 絵文字ZIPをダウンロード
-  </a>
-</p>
+        <summary><img src="img/obake.png" class="link-icon" alt="おばけ絵文字">クリックして表示</summary>
+        <section>
+          <div class="emoji-grid">
+            <img src="img/obake.png" alt="obake.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obakeshock.png" alt="obakeshock.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obakekyomu.png" alt="obakekyomu.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obakenaki.png" alt="obakenaki.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_nakinade.gif" alt="obake_nakinade.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obakebaa.gif" alt="obakebaa.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obakesuya.png" alt="obakesuya.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_heart.png" alt="obake_heart.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_love.png" alt="obake_love.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_hungry.png" alt="obake_hungry.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_hungry_yo.gif" alt="obake_hungry_yo.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_harapeko.png" alt="obake_harapeko.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_majiharapeko.gif" alt="obake_majiharapeko.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_cake.png" alt="obake_cake.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_cakes.gif" alt="obake_cakes.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_pudding.png" alt="obake_pudding.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obakeyura.gif" alt="obakeyura.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_partypopper.png" alt="obake_partypopper.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_partypopper2.png" alt="obake_partypopper2.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_igyo_kira.gif" alt="obake_igyo_kira.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_igyo2.png" alt="obake_igyo2.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_saikou_kirayura.gif" alt="obake_saikou_kirayura.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_kansha.gif" alt="obake_kansha.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_iineiine3.gif" alt="obake_iineiine3.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_dancing.gif" alt="obake_dancing.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_song.gif" alt="obake_song.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_hai.gif" alt="obake_sticks_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_call.gif" alt="obake_sticks_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_happy.gif" alt="obake_sticks_happy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_hai.gif" alt="obake_sticks_red_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_call.gif" alt="obake_sticks_red_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_red_happy.gif" alt="obake_sticks_red_happy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_hai.gif" alt="obake_stick_blue_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_call.gif" alt="obake_sticks_blue_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_blue_happy.gif" alt="obake_sticks_blue_happy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_hai.gif" alt="obake_sticks_green_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_call.gif" alt="obake_sticks_green_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_green_happy.gif" alt="obake_sticks_green_happy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_hai.gif" alt="obake_sticks_purple_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_call.gif" alt="obake_sticks_purple_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_purple_happy.gif" alt="obake_sticks_purple_happy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_hai.gif" alt="obake_6sticks_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_call.gif" alt="obake_6sticks_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_veryhappy.gif" alt="obake_6sticks_veryhappy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_hai.gif" alt="obake_6sticks_red_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_call.gif" alt="obake_6sticks_red_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_red_veryhappy.gif" alt="obake_6sticks_red_veryhappy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_hai.gif" alt="obake_6stick_blue_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_call.gif" alt="obake_6sticks_blue_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_blue_veryhappy.gif" alt="obake_6sticks_blue_veryhappy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_hai.gif" alt="obake_6sticks_green_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_call.gif" alt="obake_6sticks_green_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_green_veryhappy.gif" alt="obake_6sticks_green_veryhappy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_hai.gif" alt="obake_6sticks_purple_hai.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_call.gif" alt="obake_6sticks_purple_call.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_6sticks_purple_veryhappy.gif" alt="obake_6sticks_purple_veryhappy.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_kusa.png" alt="obake_kusa.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_kusaw.png" alt="obake_kusaw.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_surprised.png" alt="obake_surprised.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_bath.png" alt="obake_bath.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_hokaimayo.gif" alt="obake_hokaimayo.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_ohayooo.gif" alt="obake_ohayooo.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_oyasuminasai.png" alt="obake_oyasuminasai.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_beroberobaa.gif" alt="obake_beroberobaa.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_ok.png" alt="obake_ok.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_yes.png" alt="obake_yes.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_no.png" alt="obake_no.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_oteage.png" alt="obake_oteage.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_angry_oko.gif" alt="obake_angry_oko.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_gatagata_resonance_.gif" alt="obake_gatagata_resonance_.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_oyoo.png" alt="obake_oyoo.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_frustration.png" alt="obake_frustration.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_frustration_nade.gif" alt="obake_frustration_nade.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_kaiten_.gif" alt="obake_kaiten_.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_daikaiten_.gif" alt="obake_daikaiten_.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_scroll.gif" alt="obake_scroll.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_naruhodo_2.png" alt="obake_naruhodo_2.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_tiken_orange.png" alt="obake_tiken_orange.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_usa.png" alt="obake_usa.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_nazo.png" alt="obake_nazo.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_thinkhappy.png" alt="obake_thinkhappy.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_admire.png" alt="obake_admire.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_maa.png" alt="obake_maa.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_araa.png" alt="obake_araa.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_thankyou_heart.png" alt="obake_thankyou_heart.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_teretirami.png" alt="obake_teretirami.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_teretere.png" alt="obake_teretere.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_tere.png" alt="obake_tere.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_nagekiss_chu.gif" alt="obake_nagekiss_chu.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_okaeri.png" alt="obake_okaeri.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_okaerinasai.png" alt="obake_okaerinasai.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_ittekimasu.gif" alt="obake_ittekimasu.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_itteraa.png" alt="obake_itteraa.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_kitakusita.gif" alt="obake_kitakusita.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_taikin_kira.gif" alt="obake_taikin_kira.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_tadaima.gif" alt="obake_tadaima.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_otsukaresamadesu.png" alt="obake_otsukaresamadesu.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_otukaresamadesu_nade.gif" alt="obake_otukaresamadesu_nade.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_santa_present.png" alt="obake_santa_present.png">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_sticks_santa.gif" alt="obake_sticks_santa.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/obake_jackolantern.png" alt="obake_jackolantern.png">
+            <img src="https://37i37gi.github.io/obake_emoji/space_obake.png" alt="space_obake.png">
+            <img src="https://37i37gi.github.io/obake_emoji/space_obake_kai.png" alt="space_obake_kai.png">
+            <img src="https://37i37gi.github.io/obake_emoji/space_obake_confusion.png" alt="space_obake_confusion.png">
+            <img src="https://37i37gi.github.io/obake_emoji/muscle_obake.png" alt="muscle_obake.png">
+            <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_cakes.gif" alt="muscle_obake_cakes.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_dancing.gif" alt="muscle_obake_dancing.gif">
+            <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_igyo2.png" alt="muscle_obake_igyo2.png">
+            <img src="https://37i37gi.github.io/obake_emoji/muscle_obake_igyo_kira.gif" alt="muscle_obake_igyo_kira.gif">
+          </div>
+          <p class="emoji-note"><b>許可されていること:</b>
+個人利用の範囲で、自由に保存・利用していただいて構いません。</p>
+			<p class="emoji-note"><b>禁止事項:</b>以下の行為を固く禁じます。</p>
+         
+        <p class="emoji-note"><b>自作発言:</b> 作者であると偽る、または示唆する行為。
+<br><b>商用利用:</b> 利益を得る目的での利用。
+<br><b>公序良俗に反する行為:</b>他者に迷惑をかける行為、誹謗中傷、および犯罪行為に結びつく利用。
+
+<br><b>政治・宗教活動への利用:</b>政治的な主張や宗教的な勧誘、思想信条に関連する場での使用。
+
+
+			
+<br><b>再配布:</b>
+原則として、データの改造・再配布は禁止です。(絵文字制作者以外が無許可で改造・配布する行為。)
+
+<br><b>例外:</b> Fediverse（Misskey, Mastodon, Pleromaなど）のサーバーへ絵文字としてインポート（輸入）する形での利用は許可します。</p>
+			 <p class="emoji-note">当方が配布している絵文字をご利用の際は、ライセンス表記として下記URLの何れかの記載をお願いします。</p>
+			<section class="links">
+            <ul>
+              <li><i class="fa-solid fa-link"></i><a href="https://37i37gi-site.pages.dev" target="_blank" rel="noreferrer noopener">https://37i37gi-site.pages.dev</a></li>
+              <li><i class="fa-solid fa-link"></i><a href="https://github.com/37i37gi/37i37gi.github.io" target="_blank" rel="noreferrer noopener">https://github.com/37i37gi/37i37gi.github.io</a></li>
+				<li><i class="fa-solid fa-link"></i><a href="https://lit.link/37i37gi" target="_blank" rel="noreferrer noopener">https://lit.link/37i37gi</a></li>
+            </ul>
+          </section>
+          <section class="links">
+            <ul>
+              <li><img src="img/icon-1.png"class="link-icon"alt="Misskey"><a href="https://maniakey.homes/@sanagi/pages/1709985753046" target="_blank" rel="noreferrer noopener">Maniakey.Homesのページのアドレス</a></li>
+            </ul>
+          </section>
+          <hr>
+          <p style="text-align: center;">
+            <a href="https://37i37gi.github.io/obake_emoji/obake_emoji.zip" download target="_blank" rel="noreferrer noopener" class="zip-download">
+              <i class="fas fa-file-archive"></i> 絵文字ZIPをダウンロード
+            </a>
+          </p>
+          <br>
+          <section class="links">
+            <ul>
+              <li><a href="https://37i37gi.github.io/json/obake_emoji.json" target="_blank" rel="noreferrer noopener"><img src="img/Concrnt-Logo-Circle.png"class="link-icon"alt="Concrnt">おばけ絵文字パックjson</a></li>
+            </ul>
+          </section>
+        </section>
       </details>
-	  </section>  
-	<hr>  
-    
-   <section class="links">
-      <h2>連絡先</h2>
-      <ul>
-        <box><i class="fa-brands fa-discord"></i>37i37gi</box>
-	 <li><i class="fa-solid fa-hands-clapping"></i><a href="https://wavebox.me/wave/2hevaw2nkilczomm/">Wavebox</a></li>
-        <li><i class="fas fa-envelope"></i><a href="https://ssl.form-mailer.jp/fms/34465a46815909">メールフォーム</a></li>
-      </ul></section>
+	  </section>
 
-	   <section class="links">
-      <h2>LINK</h2>
-	     <br><h3>SNS</h3>
-	    <details>
-<summary>クリックして表示</summary>
+    <hr>
+
+  
+ 
 
 
-	    
-		    
-      <ul>
-	        
-	<li><i class="fa-solid fa-cat"></i><a href="https://bcc.cc/@37i37gi" target="_blank" rel="noreferrer noopener">ブラックキャット·カーニバル</a></li>   
- <li><img src="img/bluesky_media_kit_logo_svgs.svg" class="link-icon"alt="Bluesky"><a href="https://bsky.app/profile/sananone.net" target="_blank" rel="noreferrer noopener">Bluesky</a></li>
-	 <li><img src="img/icon-1.png"class="link-icon"alt="Misskey"></i><a href="https://mi.mashiro.site/@37i37gi" target="_blank" rel="noreferrer noopener">みすほわいと</a></li>
-	      <li><img src="img/icon-1.png"class="link-icon"alt="Misskey"></i><a href="https://misskey.io/@37i37gi" target="_blank" rel="noreferrer noopener">Misskey.io</a></li>
-	      <li><img src="img/icon-1.png"class="link-icon"alt="Misskey"></i><a href="https://misskey.yukineko.me/@37i37gi" target="_blank" rel="noreferrer noopener">隠れ家</a></li>
-	       <li><img src="img/icon-1.png"class="link-icon"alt="Misskey"><a href="https://maniakey.com/@37i37gi" target="_blank" rel="noreferrer noopener">まにあきー</a></li>
-	       <li><img src="img/icon-1.png" class="link-icon"alt="Misskey"><a href="https://misskey.flowers/@37i37gi" target="_blank" rel="noreferrer noopener">はなみすきー</a></li>
-	      <li><i class="fa-brands fa-mastodon"></i><a rel="me" href="https://fedibird.com/@37i37gi" target="_blank" rel="noreferrer noopener">Fedibird</a></li>
-        <li><img src="img/Concrnt-Logo-Circle.png"class="link-icon"alt="Concrnt"><a href="https://concrnt.world/37i37gi.sananone.net" target="_blank" rel="noreferrer noopener">Concrnt</a></li>
-
-      </ul>
-	    </details>
-    </section>
+</div><!--containerここまで-->
 
 
 
-	 
 
-  </div><!--container終わり-->
+<div class="fixed-buttons">
+    <button onclick="toggleTheme()" title="ライト/ダーク"><i class="fas fa-adjust"></i></button>
+    <button onclick="scrollToTop()" title="上へ"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="scrollToBottom()" title="下へ"><i class="fas fa-arrow-down"></i></button>
+  </div>
 
   <script>
-    // アコーディオン動作
-    const accordionBtn = document.getElementById('accordionBtn');
-    const content = accordionBtn.nextElementSibling;
-    accordionBtn.addEventListener('click', () => {
-      accordionBtn.classList.toggle('active');
-      content.classList.toggle('active');
+    // ページ読み込み時に保存されたテーマを適用
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        document.body.classList.add('dark');
+      } else if (savedTheme === 'light'){
+        document.body.classList.remove('dark');
+      }
     });
 
     // ダークモード切り替え
     function toggleTheme() {
       document.body.classList.toggle('dark');
+      if (document.body.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
     }
- 
+
     // スクロールボタン
     function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
-function scrollToBottom() {
-  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-}
-  
-  </script>
-	  <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/color-name/sw.js').then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+    
+    // Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/color-name/sw.js').then(function(registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
       });
-    });
-  }
-	  </script>
-<!-- スクロールボタン -->
- <!-- 固定ボタン群 -->
-<div class="fixed-buttons">
-  <button onclick="toggleTheme()" title="ライト/ダーク"><i class="fas fa-adjust"></i></button>
-  <button onclick="scrollToTop()" title="上へ"><i class="fas fa-arrow-up"></i></button>
-  <button onclick="scrollToBottom()" title="下へ"><i class="fas fa-arrow-down"></i></button>
-</div>
+    }
+  </script>
 </body>
 </html>
