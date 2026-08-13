@@ -86,8 +86,15 @@ h1 {
 .link-card-title {
   font-size: 1.25rem;
   font-weight: bold;
-  color: var(--link-iro);
+  /* 文字色をリンク色からアクセントカラー(暗い色/明るい色)に変更して視認性を高める */
+  color: var(--koi-iro);
   margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+/* マウスホバー時にタイトル部分の色を変化させるための追加指定 */
+.link-card:hover .link-card-title {
+  color: var(--link-iro);
 }
 
 .link-card-desc {
