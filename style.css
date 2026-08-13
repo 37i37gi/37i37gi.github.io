@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* -------------------- */
+/* カスタム用色変更欄 */
+/* -------------------- */
+:root {
+  --haikei-iro: #f4f4f5;
+  --naiyou-iro: #ffffff;
+  --koi-iro: #18181b;
+  --usu-iro: #fcd34d;
+  --mozi-iro: #18181b;
+  --usu-mozi-iro: #52525b;
+  --siro-mozi: #fefefe;
+  --siro-mozi2: #fefefe;
+  --link-iro: #E18E09;      
+  --link-hover-iro: #fcd34d; 
+  --menu-iro: #27272a;
+  --kotei-iro: #18181b;
+  --gradient-e: #f59e0b;
+  --iconfont: "remixicon";     
+  --iconfont2: "Material Icons Round";
+  --titlefont: 'Yusei Magic','Raleway','Noto Sans JP',sans-serif;
+}
+
+[data-theme="dark"] {
+  --haikei-iro: #09090b;
+  --naiyou-iro: #18181b;
+  --koi-iro: #fbbf24;
+  --usu-iro: #fef3c7;
+  --mozi-iro: #f4f4f5;
+  --usu-mozi-iro: #a1a1aa;
+  --siro-mozi: #18181b;
+  --siro-mozi2: #fefefe;
+  --menu-iro: #e4e4e7;
+  --link-iro: #fbbf24;      
+  --link-hover-iro: #f59e0b; 
+  --kotei-iro: #27272a;
+  --gradient-e: #f59e0b;
+}
+
+/* --- 基本レイアウト・リンク集のスタイル --- */
+body {
+  background-color: var(--haikei-iro);
+  color: var(--mozi-iro);
+  font-family: var(--titlefont);
+  margin: 0;
+  padding: 3rem 1rem;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--koi-iro);
+  margin-bottom: 2.5rem;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.link-card {
+  display: block;
+  background-color: var(--naiyou-iro);
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--mozi-iro);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--link-hover-iro);
+}
+
+.link-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--link-iro);
+  margin-bottom: 0.5rem;
+}
+
+.link-card-desc {
+  font-size: 0.95rem;
+  color: var(--usu-mozi-iro);
+}
+
+/* --- フローティングアクションボタン --- */
+.fixed-action-buttons {
+  position: fixed;
+  bottom: 5rem;
+  right: 10px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-button {
+  position: relative;
+  border-radius: 8px;
+  width: 37px;
+  height: 37px;
+  background-color: rgba(80, 80, 80, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+  color: var(--siro-mozi2);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+}
+
+.action-button .material-icons-round {
+  font-size: 20px; 
+  color: inherit;
+}
+
+.action-button:hover {
+   background-color: var(--link-hover-iro); 
+   color: var(--naiyou-iro);
+}
+
+.action-button.hidden {
+  display: none;
+}
