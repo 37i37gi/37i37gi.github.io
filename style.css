@@ -84,15 +84,16 @@ h1 {
 }
 
 .link-card-title {
+  /* タイトル部分のみゴシック体(Noto Sans JP)に固定 */
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  /* 文字色をリンク色からアクセントカラー(暗い色/明るい色)に変更して視認性を高める */
   color: var(--koi-iro);
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
 }
 
-/* マウスホバー時にタイトル部分の色を変化させるための追加指定 */
+/* マウスホバー時の動作はそのまま維持 */
 .link-card:hover .link-card-title {
   color: var(--link-iro);
 }
