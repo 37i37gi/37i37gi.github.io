@@ -54,11 +54,28 @@ body {
   margin: 0 auto;
 }
 
+/* 仕切り線 */
+hr {
+border: 0;
+border-bottom: 2px dotted var(--usu-mozi-iro);
+margin: 1.5rem auto;
+}
+
 h1 {
   text-align: center;
   color: var(--koi-iro);
   margin-bottom: 2.5rem;
 }
+
+h2 {
+  color: var(--koi-iro);
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--usu-iro);
+  padding-bottom: 0.5rem;
+}
+
 h3 {
   text-align: center;
   color: var(--usu-mozi-iro);
