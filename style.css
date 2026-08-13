@@ -59,6 +59,14 @@ h1 {
   color: var(--koi-iro);
   margin-bottom: 2.5rem;
 }
+h3 {
+  text-align: center;
+  color: var(--usu-mozi-iro);
+  margin-top: -1.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: normal;
+  font-size: 1rem;
+}
 
 .link-list {
   display: flex;
