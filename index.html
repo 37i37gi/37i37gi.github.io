@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Collection</title>
+  
+  <!-- Webフォントとアイコンの読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Raleway:wght@400;700&family=Yusei+Magic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+  <!-- 外部CSSファイルの読み込み -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Link Collection</h1>
+    
+    <div class="link-list">
+      <!-- リンク項目1 -->
+      <a href="https://example.com" class="link-card" target="_blank" rel="noopener noreferrer">
+        <div class="link-card-title">公式サイト</div>
+        <div class="link-card-desc">メインの情報を発信している公式ウェブサイト。</div>
+      </a>
+
+      <!-- リンク項目2 -->
+      <a href="https://example.com/blog" class="link-card" target="_blank" rel="noopener noreferrer">
+        <div class="link-card-title">開発者ブログ</div>
+        <div class="link-card-desc">日々の開発状況や技術的な解説をまとめた記録。</div>
+      </a>
+
+      <!-- リンク項目3 -->
+      <a href="https://github.com" class="link-card" target="_blank" rel="noopener noreferrer">
+        <div class="link-card-title">GitHub リポジトリ</div>
+        <div class="link-card-desc">ソースコードやプロジェクトの管理場所。</div>
+      </a>
+      
+      <!-- ダミー項目（スクロールテスト用） -->
+      <a href="#" class="link-card">
+        <div class="link-card-title">ギャラリー</div>
+        <div class="link-card-desc">制作物をまとめたポートフォリオ。</div>
+      </a>
+      <a href="#" class="link-card">
+        <div class="link-card-title">お問い合わせ</div>
+        <div class="link-card-desc">連絡先やフォームはこちら。</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- フローティングボタン群 -->
+  <div class="fixed-action-buttons">
+    <button id="theme-toggle-button" class="action-button" title="テーマ切り替え">
+      <span class="material-icons-round">dark_mode</span>
+    </button>
+    <button id="scroll-to-top-button" class="action-button hidden" title="上へ戻る">
+      <span class="material-icons-round">arrow_upward</span>
+    </button>
+    <button id="scroll-to-bottom-button" class="action-button" title="下へ移動">
+      <span class="material-icons-round">arrow_downward</span>
+    </button>
+  </div>
+
+  <!-- 外部JavaScriptファイルの読み込み -->
+  <script src="script.js"></script>
+</body>
+</html>
