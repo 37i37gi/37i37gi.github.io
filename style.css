@@ -66,6 +66,18 @@
   --gradient-e: #ff9eb5;
 }
 
+a {
+  color: var(--link-iro);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover-iro);
+  text-decoration: underline;
+  text-decoration-color: var(--link-hover-iro);
+}
 
 /* --- 基本レイアウト・リンク集のスタイル --- */
 body {
