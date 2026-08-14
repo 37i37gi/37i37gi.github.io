@@ -1,42 +1,70 @@
 @charset "UTF-8";
+/* -------------------- */
+/* カスタム用色変更欄（イチゴチョコドーナツ風） */
+/* -------------------- */
 
-/* -------------------- */
-/* カスタム用色変更欄 */
-/* -------------------- */
 :root {
-  --haikei-iro: #f4f4f5;
+  /* 背景・基盤色：淡いストロベリーミルクとホワイトチョコ */
+  --haikei-iro: #fff0f3;
   --naiyou-iro: #ffffff;
-  --koi-iro: #18181b;
-  --usu-iro: #fcd34d;
-  --mozi-iro: #18181b;
-  --usu-mozi-iro: #52525b;
-  --siro-mozi: #fefefe;
-  --siro-mozi2: #fefefe;
-  --link-iro: #E18E09;      
-  --link-hover-iro: #fcd34d; 
-  --menu-iro: #27272a;
-  --kotei-iro: #18181b;
-  --gradient-e: #f59e0b;
+  
+  /* アクセント・強調：ビターチョコとドーナツ生地 */
+  --koi-iro: #4a3028;
+  --usu-iro: #f7d5a3;
+  
+  /* テキスト色：視認性の高いダークチョコレートとミルクチョコレート */
+  --mozi-iro: #4a3028;
+  --usu-mozi-iro: #8e6b62;
+  
+  /* 指定維持（白文字） */
+  --siro-mozi: #ffffff;
+  --siro-mozi2: #ffffff;
+  
+  /* リンク色：鮮やかなイチゴ色と、ホバー時の淡いピンク */
+  --link-iro: #e8436b;      
+  --link-hover-iro: #ff85a1; 
+  
+  /* メニュー・固定要素：焼き色チョコ */
+  --menu-iro: #5c3a31;
+  --kotei-iro: #4a3028;
+  
+  /* グラデーション：ストロベリーソース */
+  --gradient-e: #e8436b;
+  
   --iconfont: "remixicon";     
   --iconfont2: "Material Icons Round";
   --titlefont: 'Yusei Magic','Raleway','Noto Sans JP',sans-serif;
 }
 
 [data-theme="dark"] {
-  --haikei-iro: #09090b;
-  --naiyou-iro: #18181b;
-  --koi-iro: #fbbf24;
-  --usu-iro: #fef3c7;
-  --mozi-iro: #f4f4f5;
-  --usu-mozi-iro: #a1a1aa;
-  --siro-mozi: #18181b;
-  --siro-mozi2: #fefefe;
-  --menu-iro: #e4e4e7;
-  --link-iro: #fbbf24;      
-  --link-hover-iro: #f59e0b; 
-  --kotei-iro: #27272a;
-  --gradient-e: #f59e0b;
+  /* ダークモード背景：少し明るめのココアブラウン */
+  --haikei-iro: #3f2a25;
+  --naiyou-iro: #4e352f;
+  
+  /* アクセント・強調：イチゴミルクとドーナツ生地 */
+  --koi-iro: #ff85a1;
+  --usu-iro: #e3bc88;
+  
+  /* テキスト：粉砂糖のような白と、明るさを上げたココア色 */
+  --mozi-iro: #fdf6f7;
+  --usu-mozi-iro: #dfc2bd;
+  
+  /* ダークモード時の反転文字 */
+  --siro-mozi: #3f2a25;
+  --siro-mozi2: #ffffff;
+  
+  /* メニュー：淡いストロベリー */
+  --menu-iro: #fdf6f7;
+  
+  /* リンク色：暗闇で映える明るいストロベリーピンク */
+  --link-iro: #ff9eb5;      
+  --link-hover-iro: #ffc4d4; 
+  
+  /* 固定要素：背景より少し暗めのチョコ */
+  --kotei-iro: #34211d;
+  --gradient-e: #ff9eb5;
 }
+
 
 /* --- 基本レイアウト・リンク集のスタイル --- */
 body {
