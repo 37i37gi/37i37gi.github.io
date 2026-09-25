@@ -1,0 +1,114 @@
+{
+  "name": "MEGAMOJI_emoji", 
+  "version": "1.0.0", 
+  "description": "自分用MEGAMOJI絵文字パック", 
+  "credit": "https://37i37gi.github.io", 
+  "iconURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo.gif",
+  "emojis": [
+   { 
+      "shortcode": "MEGAMOJI_igyo2", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo2.png", 
+      "aliases": ["いぎょう"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_igyo", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_igyo.gif", 
+      "aliases": ["いぎょう"] 
+    },
+{ 
+      "shortcode": "MEGAMOJI_suteki", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_suteki.gif", 
+      "aliases": ["すてき"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_koresuki", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_koresuki.png", 
+      "aliases": ["これすき"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_kenko_ni_ii", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_kenko_ni_ii.png", 
+      "aliases": ["けんこうにいい"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_kawaii", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_kawaii.png", 
+      "aliases": ["かわいい"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_kaogaii", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_kaogaii.gif", 
+      "aliases": ["かおがいい"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_tuyoi", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_tuyoi.png", 
+      "aliases": ["つよい"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_tensai", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_tensai.gif", 
+      "aliases": ["てんさい"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_wakaru", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_wakaru.png", 
+      "aliases": ["わかる"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_oremo", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_oremo.png", 
+      "aliases": ["おれも"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_nanmowakaran", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_nanmowakaran.png", 
+      "aliases": ["なんもわからん"] 
+    },
+  { 
+      "shortcode": "MEGAMOJI_tiken", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_tiken.png", 
+      "aliases": ["ちけん"] 
+  },
+    { 
+      "shortcode": "MEGAMOJI_otukaresamadesu", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_otukaresamadesu.png", 
+      "aliases": ["おつかれさまです"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_kusa", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_kusa.png", 
+      "aliases": ["くさ"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_odaijini", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_odaijini.png", 
+      "aliases": ["おだいじに"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_aruaru", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_aruaru.png", 
+      "aliases": ["あるある"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_saikou", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_saikou.gif", 
+      "aliases": ["さいこう"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_nsfw", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_nsfw.png", 
+      "aliases": ["NSFW"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_tokumori", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_tokumori.png", 
+      "aliases": ["とくもり"] 
+    },
+    { 
+      "shortcode": "MEGAMOJI_otoku", 
+      "imageURL": "https://37i37gi.github.io/MEGAMOJI_emoji/MEGAMOJI_otoku.png", 
+      "aliases": ["おとく"] 
+    }
+  ]
+}
